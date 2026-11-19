@@ -24,7 +24,7 @@ const estado = productoCopiado.stock > 0 ? 'Disponible' : 'Agotado';
 console.log(
   `El producto ${productoCopiado.nombre} cuesta $${productoCopiado.precio} y está ${estado}.`
 );
-
+//PRIMER COMMIT SIGNIFICATIVO E IMPORTANTE DEL TALLER ✅//
 
 //La diferencia entre console.log y return es que console.log se utiliza para mostrar información en la consola,
 // mientras que return se utiliza para devolver un valor desde una función. 
