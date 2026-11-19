@@ -13,8 +13,13 @@ const producto = [
 
 //listo
 
-const producto3 = producto.find(producto => producto.id === 5); 
-console.log(producto3);
+function buscarProducto(id) {
+  return producto.find((product) => product.id === id);
+}
+const exito = buscarProducto(5);
+console.log("exito:", exito);
 
+const noExito = buscarProducto(11);
+console.log("no existe:", noExito);
 //La diferencia entre console.log y return es que console.log se utiliza para mostrar información en la consola,
 // mientras que return se utiliza para devolver un valor desde una función. 
